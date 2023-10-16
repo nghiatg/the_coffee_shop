@@ -1,0 +1,9 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+   
+    <include file="changelogsql/00_create_shop_chain_schema.sql" relativeToChangelogFile="true" />
+    <include file="changelogsql/01_create_shop_schema.sql" relativeToChangelogFile="true" />
+    <include file="changelogsql/02_create_contact_schema.sql" relativeToChangelogFile="true" />
+    <include file="changelogsql/03_create_dish_schema.sql" relativeToChangelogFile="true" />
+    <include file="changelogsql/04_create_reserved_order_queue_schema.sql" relativeToChangelogFile="true" />
+
+</databaseChangeLog>
